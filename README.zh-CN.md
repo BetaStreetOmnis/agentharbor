@@ -4,7 +4,7 @@
 
 **桌面首版：0.2.0-alpha.3。** 采用 Electron + React，共用 Windows、Linux、macOS 代码。界面以助手会议为中心：左侧选择项目和会议，中间查看执行与审核对话，右侧查看任务、改动和测试证据。
 
-[English](README.md) · [下载与发布](https://github.com/otterview-labs/agentharbor/releases) · [桌面使用说明](docs/desktop-alpha.md) · [测试记录](docs/verification.md) · [架构](docs/architecture.md) · [路线图](docs/ROADMAP.md)
+[English](README.md) · [下载与发布](https://github.com/BetaStreetOmnis/agentharbor/releases) · [桌面使用说明](docs/desktop-alpha.md) · [测试记录](docs/verification.md) · [架构](docs/architecture.md) · [路线图](docs/ROADMAP.md)
 
 ![AgentHarbor 桌面界面：示例会议，仅展示布局](docs/screenshots/desktop-preview.png)
 
@@ -14,7 +14,7 @@
 
 希望让已安装的多个编程助手接力解决问题：一个执行，另一个审核，测试失败或审核提出问题时继续修改，直到满足明确的验收条件或达到预算。用户能看到发生了什么、为什么停下，以及完成的证据。
 
-AgentHarbor 是独立桌面仓库；手机端 [agentBridge](https://github.com/otterview-labs/agentBridge) 单独维护。本机使用不需要自建云端服务器；模型请求仍使用各助手已有的服务和登录配置。电脑需要保持运行。
+AgentHarbor 是独立桌面仓库；手机端 [agentBridge](https://github.com/BetaStreetOmnis/agentBridge) 单独维护。本机使用不需要自建云端服务器；模型请求仍使用各助手已有的服务和登录配置。电脑需要保持运行。
 
 ## 首版可以做什么
 
