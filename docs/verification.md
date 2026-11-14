@@ -2,7 +2,7 @@
 
 ## CI environment maintenance — 2026-11-03
 
-The Linux desktop job installs Playwright’s Chromium system dependencies and `xauth` before starting Electron under `xvfb-run`. Both runtime and desktop matrices use GitHub-hosted runners so the public checks do not depend on a private runner’s startup hooks. The latest retry stalled in the self-hosted runner setup before checkout; it did not reach the repository test steps. The previous Linux run stopped before the native tests because `xvfb-run` was missing; the historical passing runs below do not establish the status of a newer checkout. Check the [current desktop workflow](https://github.com/otterview-labs/agentharbor/actions/workflows/desktop.yml) for the tested commit and platform results.
+The Linux desktop job installs Playwright’s Chromium system dependencies and `xauth` before starting Electron under `xvfb-run`. Both runtime and desktop matrices use GitHub-hosted runners so the public checks do not depend on a private runner’s startup hooks. The latest retry stalled in the self-hosted runner setup before checkout; it did not reach the repository test steps. The previous Linux run stopped before the native tests because `xvfb-run` was missing; the historical passing runs below do not establish the status of a newer checkout. Check the [current desktop workflow](https://github.com/BetaStreetOmnis/agentharbor/actions/workflows/desktop.yml) for the tested commit and platform results.
 
 ## Windows snapshot replacement — 2026-11-03
 
@@ -20,9 +20,9 @@ The regression suite exercises automatic rework after rejected review, failed ve
 
 ## Cross-platform CI
 
-[Runtime CI 39239974653](https://github.com/otterview-labs/agentharbor/actions/runs/39239974653), commit `e373c5e`: six jobs passed, Node.js 22/24 on Windows, Linux and macOS.
+[Runtime CI 39239974653](https://github.com/BetaStreetOmnis/agentharbor/actions/runs/39239974653), commit `e373c5e`: six jobs passed, Node.js 22/24 on Windows, Linux and macOS.
 
-[Desktop CI 39239974488](https://github.com/otterview-labs/agentharbor/actions/runs/39239974488), same commit: native Electron fixture creation/execution/review/restart test and ZIP packaging passed on all three platforms. The later local pause/resume scenario is additional coverage; its subsequent CI result is recorded in the release.
+[Desktop CI 39239974488](https://github.com/BetaStreetOmnis/agentharbor/actions/runs/39239974488), same commit: native Electron fixture creation/execution/review/restart test and ZIP packaging passed on all three platforms. The later local pause/resume scenario is additional coverage; its subsequent CI result is recorded in the release.
 
 ## Desktop verification
 
